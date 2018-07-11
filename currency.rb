@@ -1,4 +1,5 @@
 # Write your code here
+
 require_relative './spec_helper.rb'
 require_relative '../currency.rb'
 require "stringio"

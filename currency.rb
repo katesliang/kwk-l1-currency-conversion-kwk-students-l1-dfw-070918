@@ -1,9 +1,5 @@
 # Write your code here
 
-require_relative './spec_helper.rb'
-require_relative '../currency.rb'
-require "stringio"
-require 'pry'
 
 puts "How much money do you want to convert?"
 amount = gets.chomp().to_i

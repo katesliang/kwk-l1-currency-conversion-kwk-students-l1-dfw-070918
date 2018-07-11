@@ -6,7 +6,7 @@ require "stringio"
 require 'pry'
 
 puts "How much money do you want to convert?"
-amount = gets.chomp.to_i
+amount = gets.chomp().to_i
  
 puts "Pick from the following menu:"
 puts "1. USD to EUR"
@@ -18,7 +18,7 @@ puts "6. JPY to USD"
 puts "7. GBP to USD"
 puts "8. AUD to USD"
  
-choice = gets.chomp.to_i
+choice = gets.chomp().to_i
 
 def usd_to_eur(amount)
   new_currency = amount * 0.85
